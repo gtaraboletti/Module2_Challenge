@@ -1,24 +1,53 @@
-# Project Title
+# Loan Qualifier App 
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This program utilizes information from banks and information provided by the customer to try to find loans that the user is eligible to apply for. 
+For the purposes of this assignment, all code was already provided except the save_qualifying_loans() function, which was written by the student. 
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+Coded in Python 3.8.8
+
+Libraries Used: 
+csv (included in Python install) - *provides functionality for manipulating .csv files*
+fire 3.9.0 - *used to automatically create command line interfaces*
+pathlib (included in Python install) - *provides object API for working with files and directories*
+questionary 1.5.2 - *Allows for expanded command line interface features.* 
+sys (included in Python install) - *provides functions and variables used to manipulate different parts of Python runtime environment* 
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+### To install python: 
+
+go to the python website: (https://www.python.org/downloads/)[https://www.python.org/downloads/]
+Download version 3.8.8 (program may or may not work in newer or older versions)
+(Python Installation Guide)[https://wiki.python.org/moin/BeginnersGuide/Download]
+
+### To install Fire and Questionary libraries: 
+
+Step 1: Open Git Bash, Terminal, or other command prompt 
+Step 2: In command prompt, type the following 
+```pip install fire```
+
+Hit enter. When prompted, type "y" 
+
+Step 4: In command prompt, type the following: 
+```pip install questionary```
+
+Hit enter. When prompted, type "y" 
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+Step 1: Open the command prompt of your choice (Git Bash, Terminal, Anaconda Prompt, etc.)
+
+![command prompts](C:\Users\gtara\FinTech_Workspace\Module2_Challenge\readme_images\step 1.png)
+
+
 
 ---
 
