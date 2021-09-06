@@ -22,19 +22,21 @@ sys (included in Python install) - *provides functions and variables used to man
 
 ### To install python: 
 
-go to the python website: (https://www.python.org/downloads/)[https://www.python.org/downloads/]
+go to the python website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 Download version 3.8.8 (program may or may not work in newer or older versions)
-(Python Installation Guide)[https://wiki.python.org/moin/BeginnersGuide/Download]
+[Python Installation Guide](https://wiki.python.org/moin/BeginnersGuide/Download)
 
 ### To install Fire and Questionary libraries: 
 
 Step 1: Open Git Bash, Terminal, or other command prompt 
-Step 2: In command prompt, type the following 
+Step 2: In command prompt, type the following: 
+
 ```pip install fire```
 
 Hit enter. When prompted, type "y" 
 
 Step 4: In command prompt, type the following: 
+
 ```pip install questionary```
 
 Hit enter. When prompted, type "y" 
@@ -45,8 +47,7 @@ Hit enter. When prompted, type "y"
 
 Step 1: Open the command prompt of your choice (Git Bash, Terminal, Anaconda Prompt, etc.)
 
-![command prompts](C:\Users\gtara\FinTech_Workspace\Module2_Challenge\readme_images\step 1.png)
-
+![command prompts](Module2_Challenge\readme_images\step 1.png)
 
 
 ---
