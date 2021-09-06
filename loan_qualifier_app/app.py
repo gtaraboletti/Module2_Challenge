@@ -108,18 +108,36 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    #variable "header" creates a list of column titles that matches those in the daily rate sheet
     header = ['Lender', 'Max Loan', 'Max LTV', 'Max DTI', 'Min Credit', 'Interest Rate']
+    # if the customer has at least 1 loan option available to them:
     if len(qualifying_loans) >= 1 : 
-        csvpath = Path("saved_loan_options.csv")
-        with open(csvpath, 'w', newline='') as csvfile: 
-            csvwriter = csv.writer(csvfile) 
-            #Writes Header row in of table in csvfile 
-            csvwriter.writerow(header) 
-            #writes the data in rows below 
-            for row in qualifying_loans: 
-                csvwriter.writerow(row)
+        #the interface asks if they would like to save a list of the loans they qualify for
+        
+        save_question = questionary.text("Would you like to save your available loan options in a .csv file? (Type yes or no.)").ask()
+        
+        #if the user types "yes" into the interface, the code below creates a csv file with the header defined above and the list of qualifying_loans
+        if save_question == "yes": 
+            csvpath = Path("saved_loan_options.csv")
+            with open(csvpath, 'w', newline='') as csvfile: 
+                csvwriter = csv.writer(csvfile) 
+                #Writes Header row in of table in csvfile 
+                csvwriter.writerow(header) 
+                #writes the data in rows below 
+                for row in qualifying_loans: 
+                        csvwriter.writerow(row)
+            
+            #saves the csv file in the directory from which you run the program
+            #does not open the file upon saving. 
+            #Then the message below prints
+            print ('A list of your loan options has been saved as "saved_loan_options.csv". \n You can view this file in Excel or another spreadsheet program.')        
+        else: 
+            #prints if user types "no"
+            print ("Loan options have not been saved.")
+    else: 
+        #prints if user information results in 0 loans that they qualify for. 
+        print("We're sorry. You do not qualify for any loans at this time.")
+            
 
 
 
