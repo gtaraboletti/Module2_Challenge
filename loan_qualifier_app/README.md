@@ -47,7 +47,7 @@ Hit enter. When prompted, type "y"
 
 Step 1: Open the command prompt of your choice (Git Bash, Terminal, Anaconda Prompt, etc.)
 
-![command prompts](Module2_Challenge\readme_images\step 1.png)
+![command prompts](https://raw.githubusercontent.com/gtaraboletti/Module2_Challenge/main/readme_images/step%201.png)
 
 
 ---
