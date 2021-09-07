@@ -1,0 +1,43 @@
+    1  git config --global user.name "Giselle Taraboletti"
+    2  git config --global user.name
+    3  ls -al ~/.ssh
+    4  ssh-keygen -t rsa -b 4096 -C "gtaraboletti@gmail.com"
+    5  eval "$(ssh-agent -s)"
+    6  ssh-add ~/.ssh.id_rsa
+    7  ls -al ~/.ssh
+    8  ssh-keygen -t rsa -b -C "gtaraboletti@gmail.com"
+    9  ssh-keygen -t rsa -b 4096 -C "gtaraboletti@gmail.com"
+   10  eval "$(ssh-agent -s)"
+   11  ssh-add ~/.ssh/id_rsa
+   12  ssh-keygen -t rsa -b 4096 -C "gtaraboletti@gmail.com"
+   13  eval "$(ssh-agent -s)"
+   14  ssh-add~/.ssh/id_rsa
+   15  7437
+   16  SHA256:xRkbObGQrH3W3AGgek7ZS+41qzquu7HTdMAz/v0ZBXw
+   17  ssh-add ~/.ssh/id_rsa
+   18  clip < ~/.ssh/id_rsa.pub
+   19  ssh -T git@github.com
+   20  ssh -T git@github.com
+   21  cd Desktop
+   22  mkdir test
+   23  touch sample.txt
+   24  cd Desktop
+   25  touch sample.txt
+   26  mkdir test
+   27  cd test
+   28  cd Desktop
+   29  conda activate dev
+   30  conda list
+   31  conda list
+   32  conda activate dev
+   33  conda activate dev
+   34  a
+   35  conda activate dev
+   36  jupyter lab
+   37  jupyterlab
+   38  cd FinTech_Workspace/Module2_Challenge
+   39  git status
+   40  git add README.md
+   41  git commit -m "Finished README file. Ready to turn in if images work." 
+   42  git push
+   43  history 50 > terminal_history.txt
